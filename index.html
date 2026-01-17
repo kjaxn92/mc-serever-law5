@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行政法典 - サーバー法典アーカイブ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #ffffff;
+            color: #1a202c;
+            line-height: 1.8;
+        }
+
+        .serif {
+            font-family: 'Noto Serif JP', serif;
+        }
+
+        .container-custom {
+            max-width: 850px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 50px 70px;
+        }
+
+        /* Administrative Law Theme Color: Royal Blue */
+        .law-header {
+            text-align: center;
+            border-bottom: 4px solid #2563eb;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+        }
+
+        .law-header h1 {
+            color: #1e40af;
+            letter-spacing: 0.2em;
+        }
+
+        .law-section-title {
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.8rem;
+            margin-top: 80px;
+            margin-bottom: 40px;
+            display: inline-block;
+            border-radius: 2px;
+        }
+
+        .chapter-title {
+            margin-top: 50px;
+            margin-bottom: 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-bottom: 1px solid #dbeafe;
+            padding-bottom: 8px;
+            color: #1e3a8a;
+        }
+
+        .article {
+            margin-bottom: 30px;
+        }
+
+        .article-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            color: #111827;
+        }
+
+        .article-content {
+            font-size: 1rem;
+            padding-left: 1.25rem;
+            border-left: 2px solid #3b82f6;
+            text-align: justify;
+        }
+
+        .toc {
+            background-color: #eff6ff;
+            padding: 30px;
+            border-radius: 4px;
+            margin-bottom: 40px;
+            border: 1px solid #dbeafe;
+        }
+
+        @media (max-width: 640px) {
+            .container-custom {
+                margin: 0;
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-custom">
+        <header class="law-header">
+            <h1 class="text-4xl font-bold serif">行政法</h1>
+            <p class="text-gray-500 mt-2 tracking-widest uppercase text-xs">Administrative Procedure & State Redress Law</p>
+        </header>
+
+        <nav class="toc">
+            <h2 class="font-bold mb-4 border-b border-blue-200 pb-2">目次</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
+                <div>
+                    <h3 class="font-bold text-blue-800 mb-2 underline">行政手続法</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#admin-1" class="hover:underline">第一章 総則</a></li>
+                        <li><a href="#admin-2" class="hover:underline">第二章 行政処分の原則</a></li>
+                        <li><a href="#admin-3" class="hover:underline">第三章 意見の聴取</a></li>
+                        <li><a href="#admin-4" class="hover:underline">第四章 緊急処分</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-blue-800 mb-2 underline">国家賠償法</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#redress-1" class="hover:underline">第一章 総則</a></li>
+                        <li><a href="#redress-2" class="hover:underline">第二章 賠償責任</a></li>
+                        <li><a href="#redress-3" class="hover:underline">第三章 免責</a></li>
+                        <li><a href="#redress-4" class="hover:underline">第四章 補則</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 行政手続法 -->
+        <h2 id="procedure" class="law-section-title serif">行政手続法</h2>
+        <section id="admin-1">
+            <h2 class="chapter-title">第一章　総則</h2>
+            <div class="article">
+                <span class="article-title">第1条（目的）</span>
+                <p class="article-content">この法律は、行政手続に関する共通の原則を定め、行政運営の公正性及び透明性を確保するとともに、サーバーメンバーの権利利益の保護を図ることを目的とする。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第2条（定義）</span>
+                <p class="article-content">この法律において「行政処分」とは、行政機関が法令に基づき、一方的に行う行為であって、サーバーメンバーの権利義務に直接影響を及ぼすものをいう。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第3条（適用範囲）</span>
+                <p class="article-content">この法律は、サーバー内において行われるすべての行政手続に適用する。</p>
+            </div>
+        </section>
+
+        <section id="admin-2">
+            <h2 class="chapter-title">第二章　行政処分の原則</h2>
+            <div class="article">
+                <span class="article-title">第4条（適正手続）</span>
+                <p class="article-content">行政処分は、公正かつ適正な手続により行われなければならない。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第5条（理由の提示）</span>
+                <p class="article-content">行政処分を行う場合には、その理由を明らかにしなければならない。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第6条（平等取扱い）</span>
+                <p class="article-content">行政機関は、同様の事案については、合理的な理由なく異なる取扱いをしてはならない。</p>
+            </div>
+        </section>
+
+        <section id="admin-3">
+            <h2 class="chapter-title">第三章　意見の聴取</h2>
+            <div class="article">
+                <span class="article-title">第7条（意見提出の機会）</span>
+                <p class="article-content">行政処分に先立ち、原則として、当該処分の対象となる者に対し、意見を述べる機会を与えなければならない。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第8条（弁明）</span>
+                <p class="article-content">当該者は、事実関係及び法令の適用について弁明することができる。</p>
+            </div>
+        </section>
+
+        <section id="admin-4">
+            <h2 class="chapter-title">第四章　緊急処分</h2>
+            <div class="article">
+                <span class="article-title">第9条（緊急性）</span>
+                <p class="article-content">サーバーの安全又は秩序の維持のため、緊急の必要がある場合には、前章の手続を省略して行政処分を行うことができる。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第10条（事後手続）</span>
+                <p class="article-content">前条の規定により処分を行った場合には、速やかに理由を明らかにし、必要に応じて意見の提出の機会を与えなければならない。</p>
+            </div>
+        </section>
+
+        <!-- 国家賠償法 -->
+        <h2 id="redress" class="law-section-title serif">国家賠償法</h2>
+        <section id="redress-1">
+            <h2 class="chapter-title">第一章　総則</h2>
+            <div class="article">
+                <span class="article-title">第1条（目的）</span>
+                <p class="article-content">この法律は、行政機関又は公務に従事する者の行為によりサーバーメンバーに損害が生じた場合における国家の賠償責任について定めることを目的とする。</p>
+            </div>
+        </section>
+
+        <section id="redress-2">
+            <h2 class="chapter-title">第二章　賠償責任</h2>
+            <div class="article">
+                <span class="article-title">第2条（国家賠償責任）</span>
+                <p class="article-content">行政機関又は公務に従事する者が、その職務を行うについて、違法に他人に損害を与えたときは、国は、その損害を賠償する責任を負う。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第3条（過失）</span>
+                <p class="article-content">前条の責任は、故意又は過失による場合に生ずる。</p>
+            </div>
+        </section>
+
+        <section id="redress-3">
+            <h2 class="chapter-title">第三章　免責</h2>
+            <div class="article">
+                <span class="article-title">第4条（免責事由）</span>
+                <p class="article-content">天災その他やむを得ない事由により生じた損害については、国は賠償の責任を負わない。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第5条（正当行為）</span>
+                <p class="article-content">法令に基づき適正に行われた行政行為によって生じた損害については、国は賠償の責任を負わない。</p>
+            </div>
+        </section>
+
+        <section id="redress-4">
+            <h2 class="chapter-title">第四章　補則</h2>
+            <div class="article">
+                <span class="article-title">第6条（求償）</span>
+                <p class="article-content">国が賠償した場合において、公務に従事する者に故意又は重大な過失があったときは、国は当該者に対し求償することができる。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第7条（委任）</span>
+                <p class="article-content">この法律の施行に関し必要な事項は、命令で定める。</p>
+            </div>
+            <div class="article">
+                <span class="article-title">第8条（施行）</span>
+                <p class="article-content">この法律は、公布の日から施行する。</p>
+            </div>
+        </section>
+
+        <footer class="mt-20 pt-10 border-t border-gray-100 text-center text-gray-400 text-xs">
+            <p>&copy; Minecraft Server Legislative Archive - Administrative Division</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
